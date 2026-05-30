@@ -1,0 +1,105 @@
+================================================================================
+          JNMC CAMPUS NETWORK SIMULATION - AUTOMATED VERIFICATION REPORT
+          Generated on: 2026-05-30 22:48:55 (Local Time)
+================================================================================
+
+--------------------------------------------------------------------------------
+PHASE 1: VPCS IP ADDRESS VERIFICATION
+--------------------------------------------------------------------------------
+  Admin_PC1       | Expected: 192.168.100.10  | Actual: 192.168.100.10  | ✅ PASS
+  Admin_PC2       | Expected: 192.168.100.20  | Actual: 192.168.100.20  | ✅ PASS
+  Hospital_PC1    | Expected: 192.168.100.50  | Actual: 192.168.100.50  | ✅ PASS
+  Hospital_PC2    | Expected: 192.168.100.60  | Actual: 192.168.100.60  | ✅ PASS
+  Hostel_PC1      | Expected: 192.168.100.70  | Actual: 192.168.100.70  | ✅ PASS
+  Hostel_PC2      | Expected: 192.168.100.80  | Actual: 192.168.100.80  | ✅ PASS
+  Library_PC1     | Expected: 192.168.100.30  | Actual: 192.168.100.30  | ✅ PASS
+  Library_PC2     | Expected: 192.168.100.40  | Actual: 192.168.100.40  | ✅ PASS
+
+Phase 1 Result: ✅ PASSED
+
+--------------------------------------------------------------------------------
+PHASE 2: ALL-TO-ALL FULL CONNECTIVITY PING MESH
+--------------------------------------------------------------------------------
+
+📡 Pings initiated from Admin_PC1 (Port 5009):
+    -> Admin_PC2       (192.168.100.20 ) | Replies: 2/2 | Latency: 0.819 ms   | ✅ PASS
+    -> Hospital_PC1    (192.168.100.50 ) | Replies: 2/2 | Latency: 0.618 ms   | ✅ PASS
+    -> Hospital_PC2    (192.168.100.60 ) | Replies: 2/2 | Latency: 0.767 ms   | ✅ PASS
+    -> Hostel_PC1      (192.168.100.70 ) | Replies: 2/2 | Latency: 0.710 ms   | ✅ PASS
+    -> Hostel_PC2      (192.168.100.80 ) | Replies: 2/2 | Latency: 0.861 ms   | ✅ PASS
+    -> Library_PC1     (192.168.100.30 ) | Replies: 2/2 | Latency: 0.983 ms   | ✅ PASS
+    -> Library_PC2     (192.168.100.40 ) | Replies: 2/2 | Latency: 0.730 ms   | ✅ PASS
+
+📡 Pings initiated from Admin_PC2 (Port 5011):
+    -> Admin_PC1       (192.168.100.10 ) | Replies: 2/2 | Latency: 1.004 ms   | ✅ PASS
+    -> Hospital_PC1    (192.168.100.50 ) | Replies: 2/2 | Latency: 1.000 ms   | ✅ PASS
+    -> Hospital_PC2    (192.168.100.60 ) | Replies: 2/2 | Latency: 0.826 ms   | ✅ PASS
+    -> Hostel_PC1      (192.168.100.70 ) | Replies: 2/2 | Latency: 0.518 ms   | ✅ PASS
+    -> Hostel_PC2      (192.168.100.80 ) | Replies: 2/2 | Latency: 0.642 ms   | ✅ PASS
+    -> Library_PC1     (192.168.100.30 ) | Replies: 2/2 | Latency: 0.819 ms   | ✅ PASS
+    -> Library_PC2     (192.168.100.40 ) | Replies: 2/2 | Latency: 1.003 ms   | ✅ PASS
+
+📡 Pings initiated from Hospital_PC1 (Port 5017):
+    -> Admin_PC1       (192.168.100.10 ) | Replies: 2/2 | Latency: 1.177 ms   | ✅ PASS
+    -> Admin_PC2       (192.168.100.20 ) | Replies: 2/2 | Latency: 1.531 ms   | ✅ PASS
+    -> Hospital_PC2    (192.168.100.60 ) | Replies: 2/2 | Latency: 0.407 ms   | ✅ PASS
+    -> Hostel_PC1      (192.168.100.70 ) | Replies: 2/2 | Latency: 0.515 ms   | ✅ PASS
+    -> Hostel_PC2      (192.168.100.80 ) | Replies: 2/2 | Latency: 0.901 ms   | ✅ PASS
+    -> Library_PC1     (192.168.100.30 ) | Replies: 2/2 | Latency: 0.868 ms   | ✅ PASS
+    -> Library_PC2     (192.168.100.40 ) | Replies: 2/2 | Latency: 0.522 ms   | ✅ PASS
+
+📡 Pings initiated from Hospital_PC2 (Port 5019):
+    -> Admin_PC1       (192.168.100.10 ) | Replies: 2/2 | Latency: 1.324 ms   | ✅ PASS
+    -> Admin_PC2       (192.168.100.20 ) | Replies: 2/2 | Latency: 1.047 ms   | ✅ PASS
+    -> Hospital_PC1    (192.168.100.50 ) | Replies: 2/2 | Latency: 0.976 ms   | ✅ PASS
+    -> Hostel_PC1      (192.168.100.70 ) | Replies: 2/2 | Latency: 0.722 ms   | ✅ PASS
+    -> Hostel_PC2      (192.168.100.80 ) | Replies: 2/2 | Latency: 0.663 ms   | ✅ PASS
+    -> Library_PC1     (192.168.100.30 ) | Replies: 2/2 | Latency: 0.908 ms   | ✅ PASS
+    -> Library_PC2     (192.168.100.40 ) | Replies: 2/2 | Latency: 0.860 ms   | ✅ PASS
+
+📡 Pings initiated from Hostel_PC1 (Port 5021):
+    -> Admin_PC1       (192.168.100.10 ) | Replies: 2/2 | Latency: 1.324 ms   | ✅ PASS
+    -> Admin_PC2       (192.168.100.20 ) | Replies: 2/2 | Latency: 1.026 ms   | ✅ PASS
+    -> Hospital_PC1    (192.168.100.50 ) | Replies: 2/2 | Latency: 1.166 ms   | ✅ PASS
+    -> Hospital_PC2    (192.168.100.60 ) | Replies: 2/2 | Latency: 1.220 ms   | ✅ PASS
+    -> Hostel_PC2      (192.168.100.80 ) | Replies: 2/2 | Latency: 0.578 ms   | ✅ PASS
+    -> Library_PC1     (192.168.100.30 ) | Replies: 2/2 | Latency: 0.565 ms   | ✅ PASS
+    -> Library_PC2     (192.168.100.40 ) | Replies: 2/2 | Latency: 0.667 ms   | ✅ PASS
+
+📡 Pings initiated from Hostel_PC2 (Port 5023):
+    -> Admin_PC1       (192.168.100.10 ) | Replies: 2/2 | Latency: 0.903 ms   | ✅ PASS
+    -> Admin_PC2       (192.168.100.20 ) | Replies: 2/2 | Latency: 1.166 ms   | ✅ PASS
+    -> Hospital_PC1    (192.168.100.50 ) | Replies: 2/2 | Latency: 0.920 ms   | ✅ PASS
+    -> Hospital_PC2    (192.168.100.60 ) | Replies: 2/2 | Latency: 0.812 ms   | ✅ PASS
+    -> Hostel_PC1      (192.168.100.70 ) | Replies: 2/2 | Latency: 0.849 ms   | ✅ PASS
+    -> Library_PC1     (192.168.100.30 ) | Replies: 2/2 | Latency: 0.776 ms   | ✅ PASS
+    -> Library_PC2     (192.168.100.40 ) | Replies: 2/2 | Latency: 0.557 ms   | ✅ PASS
+
+📡 Pings initiated from Library_PC1 (Port 5013):
+    -> Admin_PC1       (192.168.100.10 ) | Replies: 2/2 | Latency: 1.008 ms   | ✅ PASS
+    -> Admin_PC2       (192.168.100.20 ) | Replies: 2/2 | Latency: 0.949 ms   | ✅ PASS
+    -> Hospital_PC1    (192.168.100.50 ) | Replies: 2/2 | Latency: 1.094 ms   | ✅ PASS
+    -> Hospital_PC2    (192.168.100.60 ) | Replies: 2/2 | Latency: 1.005 ms   | ✅ PASS
+    -> Hostel_PC1      (192.168.100.70 ) | Replies: 2/2 | Latency: 1.237 ms   | ✅ PASS
+    -> Hostel_PC2      (192.168.100.80 ) | Replies: 2/2 | Latency: 1.179 ms   | ✅ PASS
+    -> Library_PC2     (192.168.100.40 ) | Replies: 2/2 | Latency: 0.625 ms   | ✅ PASS
+
+📡 Pings initiated from Library_PC2 (Port 5015):
+    -> Admin_PC1       (192.168.100.10 ) | Replies: 2/2 | Latency: 1.263 ms   | ✅ PASS
+    -> Admin_PC2       (192.168.100.20 ) | Replies: 2/2 | Latency: 1.218 ms   | ✅ PASS
+    -> Hospital_PC1    (192.168.100.50 ) | Replies: 2/2 | Latency: 1.069 ms   | ✅ PASS
+    -> Hospital_PC2    (192.168.100.60 ) | Replies: 2/2 | Latency: 1.072 ms   | ✅ PASS
+    -> Hostel_PC1      (192.168.100.70 ) | Replies: 2/2 | Latency: 0.921 ms   | ✅ PASS
+    -> Hostel_PC2      (192.168.100.80 ) | Replies: 2/2 | Latency: 1.163 ms   | ✅ PASS
+    -> Library_PC1     (192.168.100.30 ) | Replies: 2/2 | Latency: 0.720 ms   | ✅ PASS
+
+--------------------------------------------------------------------------------
+SUMMARY STATS:
+--------------------------------------------------------------------------------
+  Total Ping Paths Tested : 56
+  Passed Connections      : 56
+  Failed Connections      : 0
+  Mesh Integrity Score   : 100.0%
+
+Final Topology Status   : 🏆 PLATINUM GRADE - 100% OPERATIONAL
+================================================================================

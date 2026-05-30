@@ -1,0 +1,145 @@
+================================================================================
+          JNMC BELGAUM - CAMPUS NETWORK - TEST COMMANDS
+================================================================================
+
+STEP 1: Open the project in GNS3
+STEP 2: Start all nodes (Ctrl+A → Right-click → Start)
+STEP 3: Wait 5-10 seconds for all nodes to boot
+STEP 4: Double-click on a VPCS node to open its console
+STEP 5: Run the test commands below
+
+================================================================================
+TEST 1: VERIFY IP ADDRESSES
+================================================================================
+
+Open each VPCS console and type:
+  show ip
+
+Expected output for Admin_PC1:
+  NAME        : Admin_PC1[1]
+  IP/MASK     : 192.168.100.10/24
+  GATEWAY     : 0.0.0.0
+  DNS         :
+  MAC         : xx:xx:xx:xx:xx:xx
+  LPORT       : xxxxx
+  RHOST:PORT  : 127.0.0.1:xxxxx
+  MTU         : 1500
+
+================================================================================
+TEST 2: SAME DEPARTMENT PING (Admin_PC1 → Admin_PC2)
+================================================================================
+
+From Admin_PC1 console:
+  ping 192.168.100.20
+
+Expected result:
+  84 bytes from 192.168.100.20 icmp_seq=1 ttl=64 time=0.xxx ms
+  84 bytes from 192.168.100.20 icmp_seq=2 ttl=64 time=0.xxx ms
+  84 bytes from 192.168.100.20 icmp_seq=3 ttl=64 time=0.xxx ms
+  84 bytes from 192.168.100.20 icmp_seq=4 ttl=64 time=0.xxx ms
+  84 bytes from 192.168.100.20 icmp_seq=5 ttl=64 time=0.xxx ms
+
+================================================================================
+TEST 3: CROSS-DEPARTMENT PING (Admin_PC1 → Library_PC1)
+================================================================================
+
+From Admin_PC1 console:
+  ping 192.168.100.30
+
+Expected result:
+  84 bytes from 192.168.100.30 icmp_seq=1 ttl=64 time=0.xxx ms
+  84 bytes from 192.168.100.30 icmp_seq=2 ttl=64 time=0.xxx ms
+  84 bytes from 192.168.100.30 icmp_seq=3 ttl=64 time=0.xxx ms
+  84 bytes from 192.168.100.30 icmp_seq=4 ttl=64 time=0.xxx ms
+  84 bytes from 192.168.100.30 icmp_seq=5 ttl=64 time=0.xxx ms
+
+================================================================================
+TEST 4: CROSS-DEPARTMENT PING (Admin_PC1 → Hospital_PC1)
+================================================================================
+
+From Admin_PC1 console:
+  ping 192.168.100.50
+
+Expected result:
+  84 bytes from 192.168.100.50 icmp_seq=1 ttl=64 time=0.xxx ms
+  (5 replies, 0% packet loss)
+
+================================================================================
+TEST 5: CROSS-DEPARTMENT PING (Admin_PC1 → Hostel_PC1)
+================================================================================
+
+From Admin_PC1 console:
+  ping 192.168.100.70
+
+Expected result:
+  84 bytes from 192.168.100.70 icmp_seq=1 ttl=64 time=0.xxx ms
+  (5 replies, 0% packet loss)
+
+================================================================================
+TEST 6: FULL CONNECTIVITY TEST FROM ADMIN_PC1
+================================================================================
+
+From Admin_PC1 console, run ALL these commands one by one:
+
+  ping 192.168.100.20
+  ping 192.168.100.30
+  ping 192.168.100.40
+  ping 192.168.100.50
+  ping 192.168.100.60
+  ping 192.168.100.70
+  ping 192.168.100.80
+
+ALL pings should succeed with 0% packet loss.
+
+================================================================================
+TEST 7: FULL CONNECTIVITY FROM LIBRARY_PC1
+================================================================================
+
+From Library_PC1 console:
+
+  ping 192.168.100.10
+  ping 192.168.100.20
+  ping 192.168.100.40
+  ping 192.168.100.50
+  ping 192.168.100.60
+  ping 192.168.100.70
+  ping 192.168.100.80
+
+ALL pings should succeed with 0% packet loss.
+
+================================================================================
+QUICK DEMO COMMANDS (Show these to your teacher)
+================================================================================
+
+From Admin_PC1:
+  show ip
+  ping 192.168.100.20
+  ping 192.168.100.30
+  ping 192.168.100.50
+  ping 192.168.100.70
+
+From Hostel_PC1:
+  show ip
+  ping 192.168.100.10
+  ping 192.168.100.30
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+If ping fails:
+1. Make sure ALL nodes are started (green icon)
+2. Check IP: type "show ip" in the VPCS console
+3. If IP is 0.0.0.0, manually set it:
+   - Admin_PC1:    ip 192.168.100.10 255.255.255.0
+   - Admin_PC2:    ip 192.168.100.20 255.255.255.0
+   - Library_PC1:  ip 192.168.100.30 255.255.255.0
+   - Library_PC2:  ip 192.168.100.40 255.255.255.0
+   - Hospital_PC1: ip 192.168.100.50 255.255.255.0
+   - Hospital_PC2: ip 192.168.100.60 255.255.255.0
+   - Hostel_PC1:   ip 192.168.100.70 255.255.255.0
+   - Hostel_PC2:   ip 192.168.100.80 255.255.255.0
+4. Check links: make sure no link has a red X
+5. Restart the node: Right-click → Stop, then Start
+
+================================================================================

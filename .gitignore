@@ -1,0 +1,18 @@
+# GNS3 Git Ignore Rules
+
+# Ignore all dynamic GNS3 locks
+*.gns3-lock
+
+# Ignore temporary and auto-save backup files
+*~
+*.bak
+*.tmp
+
+# Ignore all files inside project-files recursively, but preserve startup.vpc
+project-files/**
+!project-files/**/
+!project-files/**/startup.vpc
+
+# Ignore local server environment configurations
+gns3_server.conf
+*.log

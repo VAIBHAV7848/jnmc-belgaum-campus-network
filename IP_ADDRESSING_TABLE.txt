@@ -1,0 +1,59 @@
+================================================================================
+          JNMC BELGAUM - CAMPUS NETWORK - IP ADDRESSING TABLE
+================================================================================
+
+Project:    JNMC Belgaum Campus Network (GNS3 Lab)
+Design:     Flat LAN (Single Subnet) - 100% Image Hierarchy Match
+Network:    192.168.100.0/24
+Subnet:     255.255.255.0
+Gateway:    None (flat LAN - no routing needed)
+
+================================================================================
+ Device Name            | Department       | IP Address       | Subnet Mask | GW
+================================================================================
+ Admin_PC1              | Administration   | 192.168.100.10   | 255.255.255.0 | -
+ Admin_PC2              | Administration   | 192.168.100.20   | 255.255.255.0 | -
+ Library_PC1            | Library          | 192.168.100.30   | 255.255.255.0 | -
+ Library_PC2            | Library          | 192.168.100.40   | 255.255.255.0 | -
+ Hospital_PC1           | Hospital OPD     | 192.168.100.50   | 255.255.255.0 | -
+ Hospital_PC2           | Hospital OPD     | 192.168.100.60   | 255.255.255.0 | -
+ Hostel_PC1             | Hostel           | 192.168.100.70   | 255.255.255.0 | -
+ Hostel_PC2             | Hostel           | 192.168.100.80   | 255.255.255.0 | -
+================================================================================
+
+INFRASTRUCTURE LAYER 2 DEVICES (No IP addresses - transparent switching fabric):
+ Internet_BSNL          - BSNL ISP Cloud Symbol Representation
+ Firewall               - Firewall Security Symbol Representation
+ Main_Core_Switch       - central distribution Multilayer Switch (Juniper PoE)
+ Backup_Switch_Standby  - standby redundant Core switch connected via dashed links
+ Secondary_Switch       - aggregation/management Switch connected via dashed links
+ Administration_SW      - Administration department access switch
+ Library_SW             - Library department access switch
+ Hospital_OPD_SW        - Hospital OPD department access switch
+ Hostel_SW              - Hostel department access switch
+
+================================================================================
+LINK MAP:
+ Internet_BSNL (e0)  <=== [Purple Link] ===> Firewall (e0)
+ Firewall (e1)       <=== [Green Uplink] ===> Main_Core_Switch (e10)
+ 
+ Backup_Switch_Standby (e1) <--- [Red Dashed Link] ---> Main_Core_Switch (e11)
+ Secondary_Switch (e1)      <--- [Red Dashed Link] ---> Main_Core_Switch (e12)
+
+ Main_Core_Switch (e0) <--- [Green Uplink] ---> Administration_SW (e0)
+ Main_Core_Switch (e1) <--- [Green Uplink] ---> Library_SW (e0)
+ Main_Core_Switch (e2) <--- [Green Uplink] ---> Hospital_OPD_SW (e0)
+ Main_Core_Switch (e3) <--- [Green Uplink] ---> Hostel_SW (e0)
+
+ Administration_SW (e1) <---> Admin_PC1 (e0)
+ Administration_SW (e2) <---> Admin_PC2 (e0)
+
+ Library_SW (e1) <---> Library_PC1 (e0)
+ Library_SW (e2) <---> Library_PC2 (e0)
+
+ Hospital_OPD_SW (e1) <---> Hospital_PC1 (e0)
+ Hospital_OPD_SW (e2) <---> Hospital_PC2 (e0)
+
+ Hostel_SW (e1) <---> Hostel_PC1 (e0)
+ Hostel_SW (e2) <---> Hostel_PC2 (e0)
+================================================================================
