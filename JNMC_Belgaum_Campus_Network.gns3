@@ -6,7 +6,7 @@
     "grid_size": 75,
     "name": "JNMC_Belgaum_Campus_Network",
     "project_id": "fdbc1a48-5775-4c75-acaf-32a68c86f4bd",
-    "revision": 9,
+    "revision": 10,
     "scene_height": 1300,
     "scene_width": 2400,
     "show_grid": false,
@@ -18,273 +18,471 @@
         "computes": [],
         "drawings": [
             {
-                "drawing_id": "3318033a-dc3f-4e0c-ad35-8a6b1e8ae6d0",
+                "drawing_id": "105e4a76-d868-41c7-95d8-8265a0532882",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"900\" height=\"65\"><rect width=\"900\" height=\"65\" rx=\"10\" ry=\"10\" fill=\"#1e3a8a\" fill-opacity=\"0.95\" stroke=\"#1e3a8a\" stroke-width=\"0\" /></svg>",
+                "svg": "<svg width=\"900\" height=\"70\"><rect width=\"900\" height=\"70\" rx=\"12\" ry=\"12\" fill=\"#0F172A\" fill-opacity=\"0.2\" stroke=\"#0F172A\" stroke-width=\"0\" /></svg>",
+                "x": -446,
+                "y": -636,
+                "z": -2
+            },
+            {
+                "drawing_id": "61351f49-2bf7-4511-a0e6-bdeb7d43e694",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"900\" height=\"70\"><rect width=\"900\" height=\"70\" rx=\"12\" ry=\"12\" fill=\"#1E293B\" fill-opacity=\"1.0\" stroke=\"#334155\" stroke-width=\"2\" /></svg>",
                 "x": -450,
                 "y": -640,
                 "z": -1
             },
             {
-                "drawing_id": "4f83f7ac-1012-4b74-8479-9432dbddc753",
+                "drawing_id": "ce955398-6c44-4536-b15c-b3a9b30009f3",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"836\" height=\"50\"><text font-family=\"TypeWriter, monospace\" font-size=\"20\" font-weight=\"bold\" fill=\"#FFFFFF\" fill-opacity=\"1.0\">JNMC Belgaum \u2014 Campus Network Topology</text></svg>",
-                "x": -330,
-                "y": -630,
-                "z": 2
-            },
-            {
-                "drawing_id": "681e749a-956d-45e1-a10c-2c3004576a1c",
-                "locked": true,
-                "rotation": 0,
-                "svg": "<svg width=\"836\" height=\"22\"><text font-family=\"TypeWriter, monospace\" font-size=\"9\" font-weight=\"normal\" fill=\"#93C5FD\" fill-opacity=\"1.0\">Computer Networks Lab  |  Scaled Hierarchical Lab Model  |  192.168.100.0/24</text></svg>",
+                "svg": "<svg width=\"912\" height=\"42\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"17\" font-weight=\"bold\" fill=\"#FFFFFF\" fill-opacity=\"1.0\">JAWAHARLAL NEHRU MEDICAL COLLEGE (JNMC), BELGAUM</text></svg>",
                 "x": -320,
-                "y": -605,
+                "y": -627,
                 "z": 2
             },
             {
-                "drawing_id": "629c787f-0a7c-452f-9409-53c177a4ee6e",
+                "drawing_id": "fa59a806-19f9-4d88-99db-51a534c29d07",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"840\" height=\"140\"><rect width=\"840\" height=\"140\" rx=\"10\" ry=\"10\" fill=\"#EFF6FF\" fill-opacity=\"0.25\" stroke=\"#3B82F6\" stroke-width=\"2\" /></svg>",
-                "x": -420,
+                "svg": "<svg width=\"1001\" height=\"22\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"9\" font-weight=\"normal\" fill=\"#94A3B8\" fill-opacity=\"1.0\">Campus Backbone Network Simulation  |  Universal Flat switching Fabric  |  192.168.100.0/24</text></svg>",
+                "x": -255,
+                "y": -600,
+                "z": 2
+            },
+            {
+                "drawing_id": "67b3d19e-8a6c-49b2-9a14-a79864b97cc7",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"860\" height=\"150\"><rect width=\"860\" height=\"150\" rx=\"12\" ry=\"12\" fill=\"#000000\" fill-opacity=\"0.08\" stroke=\"#000000\" stroke-width=\"0\" /></svg>",
+                "x": -426,
+                "y": -356,
+                "z": -2
+            },
+            {
+                "drawing_id": "74f1de07-732d-4c0a-9584-e6bca765f70b",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"860\" height=\"150\"><rect width=\"860\" height=\"150\" rx=\"12\" ry=\"12\" fill=\"#F8FAFC\" fill-opacity=\"0.85\" stroke=\"#CBD5E1\" stroke-width=\"2\" /></svg>",
+                "x": -430,
                 "y": -360,
                 "z": -1
             },
             {
-                "drawing_id": "1a0dd819-8027-4fb1-a881-896b995e0c3e",
+                "drawing_id": "a590e984-1a0e-4294-ab6c-2af7f8334b8c",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"120\" height=\"25\"><text font-family=\"TypeWriter, monospace\" font-size=\"10\" font-weight=\"bold\" fill=\"#1D4ED8\" fill-opacity=\"1.0\">CORE LAYER</text></svg>",
-                "x": -45,
-                "y": -350,
+                "svg": "<svg width=\"416\" height=\"27\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#475569\" fill-opacity=\"1.0\">CAMPUS DISTRIBUTION & CORE LAYER</text></svg>",
+                "x": -135,
+                "y": -348,
                 "z": 2
             },
             {
-                "drawing_id": "989d0418-d036-4295-bd7e-e748fe9d3efc",
+                "drawing_id": "90c48f31-62eb-4707-af1f-a1627d0c21da",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"260\" height=\"345\"><rect width=\"260\" height=\"345\" rx=\"10\" ry=\"10\" fill=\"#DBEAFE\" fill-opacity=\"0.25\" stroke=\"#2563EB\" stroke-width=\"2\" /></svg>",
+                "svg": "<svg width=\"270\" height=\"345\"><rect width=\"270\" height=\"345\" rx=\"12\" ry=\"12\" fill=\"#000000\" fill-opacity=\"0.06\" stroke=\"#000000\" stroke-width=\"0\" /></svg>",
+                "x": -741,
+                "y": 19,
+                "z": -2
+            },
+            {
+                "drawing_id": "e64d6bf7-1a6f-43ad-a20d-0107180bcb44",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"270\" height=\"345\"><rect width=\"270\" height=\"345\" rx=\"12\" ry=\"12\" fill=\"#EFF6FF\" fill-opacity=\"0.45\" stroke=\"#3B82F6\" stroke-width=\"2\" /></svg>",
+                "x": -745,
+                "y": 15,
+                "z": -1
+            },
+            {
+                "drawing_id": "da2cec17-f431-408c-bc69-6b86d509ecd1",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"258\" height=\"333\"><rect width=\"258\" height=\"333\" rx=\"12\" ry=\"12\" fill=\"#EFF6FF\" fill-opacity=\"0.05\" stroke=\"#3B82F6\" stroke-width=\"1\" /></svg>",
+                "x": -739,
+                "y": 21,
+                "z": -1
+            },
+            {
+                "drawing_id": "c2b2d26c-9704-4d21-af76-880a1f26ec63",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"247\" height=\"27\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E40AF\" fill-opacity=\"1.0\">ADMINISTRATION DEPT</text></svg>",
                 "x": -730,
-                "y": 10,
-                "z": -1
-            },
-            {
-                "drawing_id": "432d9f44-cce3-4a71-bd68-a31d2a0333be",
-                "locked": true,
-                "rotation": 0,
-                "svg": "<svg width=\"182\" height=\"27\"><text font-family=\"TypeWriter, monospace\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563EB\" fill-opacity=\"1.0\">ADMINISTRATION</text></svg>",
-                "x": -715,
-                "y": 18,
+                "y": 29,
                 "z": 2
             },
             {
-                "drawing_id": "5d941c5e-1c12-4c35-957c-cea767320631",
+                "drawing_id": "fb78bd61-7b77-40f6-a23a-ef964d85d9a3",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"260\" height=\"345\"><rect width=\"260\" height=\"345\" rx=\"10\" ry=\"10\" fill=\"#D1FAE5\" fill-opacity=\"0.25\" stroke=\"#059669\" stroke-width=\"2\" /></svg>",
-                "x": -330,
-                "y": 10,
-                "z": -1
-            },
-            {
-                "drawing_id": "f57c5168-dbed-46c1-ad3e-1742c03d22cd",
-                "locked": true,
-                "rotation": 0,
-                "svg": "<svg width=\"100\" height=\"27\"><text font-family=\"TypeWriter, monospace\" font-size=\"11\" font-weight=\"bold\" fill=\"#059669\" fill-opacity=\"1.0\">LIBRARY</text></svg>",
-                "x": -315,
-                "y": 18,
+                "svg": "<svg width=\"152.0\" height=\"18\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"7.5\" font-weight=\"normal\" fill=\"#64748B\" fill-opacity=\"1.0\">192.168.100.0/24</text></svg>",
+                "x": -730,
+                "y": 49,
                 "z": 2
             },
             {
-                "drawing_id": "5f364529-8031-4cae-b616-f1df9ae83550",
+                "drawing_id": "fdf2501e-dcf5-4ef1-82ab-2c9a5cc97bd5",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"260\" height=\"345\"><rect width=\"260\" height=\"345\" rx=\"10\" ry=\"10\" fill=\"#FEF3C7\" fill-opacity=\"0.25\" stroke=\"#D97706\" stroke-width=\"2\" /></svg>",
-                "x": 70,
-                "y": 10,
+                "svg": "<svg width=\"270\" height=\"345\"><rect width=\"270\" height=\"345\" rx=\"12\" ry=\"12\" fill=\"#000000\" fill-opacity=\"0.06\" stroke=\"#000000\" stroke-width=\"0\" /></svg>",
+                "x": -336,
+                "y": 19,
+                "z": -2
+            },
+            {
+                "drawing_id": "244238ea-6d3b-4f45-b7bf-1adf062921a5",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"270\" height=\"345\"><rect width=\"270\" height=\"345\" rx=\"12\" ry=\"12\" fill=\"#ECFDF5\" fill-opacity=\"0.45\" stroke=\"#10B981\" stroke-width=\"2\" /></svg>",
+                "x": -340,
+                "y": 15,
                 "z": -1
             },
             {
-                "drawing_id": "f655a4ee-5005-46f4-be08-bc6a44aca681",
+                "drawing_id": "462c1859-5888-4f36-a08c-e0a9a27890ea",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"156\" height=\"27\"><text font-family=\"TypeWriter, monospace\" font-size=\"11\" font-weight=\"bold\" fill=\"#D97706\" fill-opacity=\"1.0\">HOSPITAL OPD</text></svg>",
-                "x": 85,
-                "y": 18,
+                "svg": "<svg width=\"258\" height=\"333\"><rect width=\"258\" height=\"333\" rx=\"12\" ry=\"12\" fill=\"#ECFDF5\" fill-opacity=\"0.05\" stroke=\"#10B981\" stroke-width=\"1\" /></svg>",
+                "x": -334,
+                "y": 21,
+                "z": -1
+            },
+            {
+                "drawing_id": "d6575eac-2c10-47a4-9c5d-1c448d62791d",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"234\" height=\"27\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#065F46\" fill-opacity=\"1.0\">LIBRARY DEPARTMENT</text></svg>",
+                "x": -325,
+                "y": 29,
                 "z": 2
             },
             {
-                "drawing_id": "e6029e3f-a220-4042-8f7c-b0163455ed32",
+                "drawing_id": "10bb380e-22c3-467e-972b-a9da3e8e8369",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"260\" height=\"345\"><rect width=\"260\" height=\"345\" rx=\"10\" ry=\"10\" fill=\"#EDE9FE\" fill-opacity=\"0.25\" stroke=\"#7C3AED\" stroke-width=\"2\" /></svg>",
+                "svg": "<svg width=\"152.0\" height=\"18\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"7.5\" font-weight=\"normal\" fill=\"#64748B\" fill-opacity=\"1.0\">192.168.100.0/24</text></svg>",
+                "x": -325,
+                "y": 49,
+                "z": 2
+            },
+            {
+                "drawing_id": "9654bac8-8139-4679-927d-7e9dc58c03fd",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"270\" height=\"345\"><rect width=\"270\" height=\"345\" rx=\"12\" ry=\"12\" fill=\"#000000\" fill-opacity=\"0.06\" stroke=\"#000000\" stroke-width=\"0\" /></svg>",
+                "x": 69,
+                "y": 19,
+                "z": -2
+            },
+            {
+                "drawing_id": "3a4e4b1f-ee82-4485-badb-44572e5444b8",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"270\" height=\"345\"><rect width=\"270\" height=\"345\" rx=\"12\" ry=\"12\" fill=\"#FFFBEB\" fill-opacity=\"0.45\" stroke=\"#F59E0B\" stroke-width=\"2\" /></svg>",
+                "x": 65,
+                "y": 15,
+                "z": -1
+            },
+            {
+                "drawing_id": "e128272b-e45f-4a9f-95f4-7d5bee3a8c9c",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"258\" height=\"333\"><rect width=\"258\" height=\"333\" rx=\"12\" ry=\"12\" fill=\"#FFFBEB\" fill-opacity=\"0.05\" stroke=\"#F59E0B\" stroke-width=\"1\" /></svg>",
+                "x": 71,
+                "y": 21,
+                "z": -1
+            },
+            {
+                "drawing_id": "6228faad-5460-418a-82d3-0748d004a7a7",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"273\" height=\"27\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#92400E\" fill-opacity=\"1.0\">HOSPITAL OPD SERVICES</text></svg>",
+                "x": 80,
+                "y": 29,
+                "z": 2
+            },
+            {
+                "drawing_id": "2e152d32-8d61-4e96-bb10-76202f25b1d7",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"152.0\" height=\"18\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"7.5\" font-weight=\"normal\" fill=\"#64748B\" fill-opacity=\"1.0\">192.168.100.0/24</text></svg>",
+                "x": 80,
+                "y": 49,
+                "z": 2
+            },
+            {
+                "drawing_id": "3655f153-cb0c-485a-bfe6-164f45a4fa18",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"270\" height=\"345\"><rect width=\"270\" height=\"345\" rx=\"12\" ry=\"12\" fill=\"#000000\" fill-opacity=\"0.06\" stroke=\"#000000\" stroke-width=\"0\" /></svg>",
+                "x": 474,
+                "y": 19,
+                "z": -2
+            },
+            {
+                "drawing_id": "38f91379-eb4b-4472-b39e-faa9cee7c5c0",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"270\" height=\"345\"><rect width=\"270\" height=\"345\" rx=\"12\" ry=\"12\" fill=\"#F5F3FF\" fill-opacity=\"0.45\" stroke=\"#8B5CF6\" stroke-width=\"2\" /></svg>",
                 "x": 470,
-                "y": 10,
+                "y": 15,
                 "z": -1
             },
             {
-                "drawing_id": "fc2f809c-de54-45de-88b8-afeb5b30d69d",
+                "drawing_id": "521a96ac-84b8-4297-9475-fef78b737c13",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"100\" height=\"27\"><text font-family=\"TypeWriter, monospace\" font-size=\"11\" font-weight=\"bold\" fill=\"#7C3AED\" fill-opacity=\"1.0\">HOSTELS</text></svg>",
+                "svg": "<svg width=\"258\" height=\"333\"><rect width=\"258\" height=\"333\" rx=\"12\" ry=\"12\" fill=\"#F5F3FF\" fill-opacity=\"0.05\" stroke=\"#8B5CF6\" stroke-width=\"1\" /></svg>",
+                "x": 476,
+                "y": 21,
+                "z": -1
+            },
+            {
+                "drawing_id": "3b67790b-ce35-4bca-adc6-f34371a85402",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"182\" height=\"27\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#5B21B6\" fill-opacity=\"1.0\">CAMPUS HOSTELS</text></svg>",
                 "x": 485,
-                "y": 18,
+                "y": 29,
                 "z": 2
             },
             {
-                "drawing_id": "080ef140-b3f4-41d5-8047-12783176bd1e",
+                "drawing_id": "db7f458a-0229-4e0c-bccf-42934556579f",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"140\" height=\"20\"><text font-family=\"TypeWriter, monospace\" font-size=\"8\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">192.168.100.10</text></svg>",
-                "x": -708,
-                "y": 375,
+                "svg": "<svg width=\"152.0\" height=\"18\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"7.5\" font-weight=\"normal\" fill=\"#64748B\" fill-opacity=\"1.0\">192.168.100.0/24</text></svg>",
+                "x": 485,
+                "y": 49,
                 "z": 2
             },
             {
-                "drawing_id": "a0ae2ad7-6994-4ae7-a726-acfc12371b6f",
+                "drawing_id": "29c5f2a0-4027-4bba-ab9e-4c33b0a114b5",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"140\" height=\"20\"><text font-family=\"TypeWriter, monospace\" font-size=\"8\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">192.168.100.20</text></svg>",
-                "x": -568,
-                "y": 375,
+                "svg": "<svg width=\"104\" height=\"20\"><rect width=\"104\" height=\"20\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" fill-opacity=\"1.0\" stroke=\"#E2E8F0\" stroke-width=\"1\" /></svg>",
+                "x": -737,
+                "y": 380,
+                "z": 1
+            },
+            {
+                "drawing_id": "4c949b4f-d32c-4fcf-b90b-47f568512a42",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"180\" height=\"20\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"8\" font-weight=\"normal\" fill=\"#475569\" fill-opacity=\"1.0\">IP: 192.168.100.10</text></svg>",
+                "x": -730,
+                "y": 385,
                 "z": 2
             },
             {
-                "drawing_id": "3f373686-5b14-4336-ad5f-34da20c128e7",
+                "drawing_id": "93ad3903-a82d-4710-9e59-dfb035c4e867",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"140\" height=\"20\"><text font-family=\"TypeWriter, monospace\" font-size=\"8\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">192.168.100.30</text></svg>",
-                "x": -308,
-                "y": 375,
+                "svg": "<svg width=\"104\" height=\"20\"><rect width=\"104\" height=\"20\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" fill-opacity=\"1.0\" stroke=\"#E2E8F0\" stroke-width=\"1\" /></svg>",
+                "x": -587,
+                "y": 380,
+                "z": 1
+            },
+            {
+                "drawing_id": "3f0009a8-e24f-4518-8dd4-c7cffcb44fe4",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"180\" height=\"20\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"8\" font-weight=\"normal\" fill=\"#475569\" fill-opacity=\"1.0\">IP: 192.168.100.20</text></svg>",
+                "x": -580,
+                "y": 385,
                 "z": 2
             },
             {
-                "drawing_id": "cf3fd37f-a3a2-4172-abea-1a078ea20d10",
+                "drawing_id": "acba51f8-c19c-455f-bc6b-e7cfa0544887",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"140\" height=\"20\"><text font-family=\"TypeWriter, monospace\" font-size=\"8\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">192.168.100.40</text></svg>",
-                "x": -168,
-                "y": 375,
+                "svg": "<svg width=\"104\" height=\"20\"><rect width=\"104\" height=\"20\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" fill-opacity=\"1.0\" stroke=\"#E2E8F0\" stroke-width=\"1\" /></svg>",
+                "x": -332,
+                "y": 380,
+                "z": 1
+            },
+            {
+                "drawing_id": "1ac3fc5b-8aa9-4a63-8d79-88aa18d593ec",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"180\" height=\"20\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"8\" font-weight=\"normal\" fill=\"#475569\" fill-opacity=\"1.0\">IP: 192.168.100.30</text></svg>",
+                "x": -325,
+                "y": 385,
                 "z": 2
             },
             {
-                "drawing_id": "a96102eb-5535-456a-bb38-c5bc7dd367f1",
+                "drawing_id": "7d5ec537-de6b-4bc9-b5f0-1310aeea155f",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"140\" height=\"20\"><text font-family=\"TypeWriter, monospace\" font-size=\"8\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">192.168.100.50</text></svg>",
-                "x": 92,
-                "y": 375,
+                "svg": "<svg width=\"104\" height=\"20\"><rect width=\"104\" height=\"20\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" fill-opacity=\"1.0\" stroke=\"#E2E8F0\" stroke-width=\"1\" /></svg>",
+                "x": -182,
+                "y": 380,
+                "z": 1
+            },
+            {
+                "drawing_id": "4b98899e-e8b4-459b-8616-946acd44d443",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"180\" height=\"20\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"8\" font-weight=\"normal\" fill=\"#475569\" fill-opacity=\"1.0\">IP: 192.168.100.40</text></svg>",
+                "x": -175,
+                "y": 385,
                 "z": 2
             },
             {
-                "drawing_id": "718b1c61-7643-4f03-9baa-b2e9f9b11f36",
+                "drawing_id": "f1a4eec1-2d55-441e-b6da-e922eaf9fa88",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"140\" height=\"20\"><text font-family=\"TypeWriter, monospace\" font-size=\"8\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">192.168.100.60</text></svg>",
-                "x": 232,
-                "y": 375,
+                "svg": "<svg width=\"104\" height=\"20\"><rect width=\"104\" height=\"20\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" fill-opacity=\"1.0\" stroke=\"#E2E8F0\" stroke-width=\"1\" /></svg>",
+                "x": 73,
+                "y": 380,
+                "z": 1
+            },
+            {
+                "drawing_id": "c10f1e4a-6553-44bb-bce4-70ce2e1d0bdc",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"180\" height=\"20\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"8\" font-weight=\"normal\" fill=\"#475569\" fill-opacity=\"1.0\">IP: 192.168.100.50</text></svg>",
+                "x": 80,
+                "y": 385,
                 "z": 2
             },
             {
-                "drawing_id": "9b3cc854-de2f-4fce-89be-c7bb36e0c17e",
+                "drawing_id": "c5e3513d-1f4b-40f5-9454-97b0dfc958a4",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"140\" height=\"20\"><text font-family=\"TypeWriter, monospace\" font-size=\"8\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">192.168.100.70</text></svg>",
-                "x": 492,
-                "y": 375,
+                "svg": "<svg width=\"104\" height=\"20\"><rect width=\"104\" height=\"20\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" fill-opacity=\"1.0\" stroke=\"#E2E8F0\" stroke-width=\"1\" /></svg>",
+                "x": 223,
+                "y": 380,
+                "z": 1
+            },
+            {
+                "drawing_id": "a69d61b7-72cf-426d-bc6c-c50eb77575d6",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"180\" height=\"20\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"8\" font-weight=\"normal\" fill=\"#475569\" fill-opacity=\"1.0\">IP: 192.168.100.60</text></svg>",
+                "x": 230,
+                "y": 385,
                 "z": 2
             },
             {
-                "drawing_id": "892e3dfe-07c8-4dc5-bd1c-0abc50a3140a",
+                "drawing_id": "7e11d77e-e889-46ba-91a0-10c77af0c7e3",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"140\" height=\"20\"><text font-family=\"TypeWriter, monospace\" font-size=\"8\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">192.168.100.80</text></svg>",
-                "x": 632,
-                "y": 375,
+                "svg": "<svg width=\"104\" height=\"20\"><rect width=\"104\" height=\"20\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" fill-opacity=\"1.0\" stroke=\"#E2E8F0\" stroke-width=\"1\" /></svg>",
+                "x": 478,
+                "y": 380,
+                "z": 1
+            },
+            {
+                "drawing_id": "ca1a838c-3f54-4960-8800-b1238eb816de",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"180\" height=\"20\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"8\" font-weight=\"normal\" fill=\"#475569\" fill-opacity=\"1.0\">IP: 192.168.100.70</text></svg>",
+                "x": 485,
+                "y": 385,
                 "z": 2
             },
             {
-                "drawing_id": "3c2f80c4-43f5-4984-9a6c-aa4095d3e5c4",
+                "drawing_id": "2167686e-a56c-47c0-a071-095dc61bd6bd",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"230\" height=\"160\"><rect width=\"230\" height=\"160\" rx=\"10\" ry=\"10\" fill=\"#F9FAFB\" fill-opacity=\"0.8\" stroke=\"#D1D5DB\" stroke-width=\"2\" /></svg>",
+                "svg": "<svg width=\"104\" height=\"20\"><rect width=\"104\" height=\"20\" rx=\"12\" ry=\"12\" fill=\"#FFFFFF\" fill-opacity=\"1.0\" stroke=\"#E2E8F0\" stroke-width=\"1\" /></svg>",
+                "x": 628,
+                "y": 380,
+                "z": 1
+            },
+            {
+                "drawing_id": "d0a81931-73e2-4927-b734-f64b8386ffc5",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"180\" height=\"20\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"8\" font-weight=\"normal\" fill=\"#475569\" fill-opacity=\"1.0\">IP: 192.168.100.80</text></svg>",
+                "x": 635,
+                "y": 385,
+                "z": 2
+            },
+            {
+                "drawing_id": "f4307898-6297-468c-98be-b1028b58f301",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"240\" height=\"175\"><rect width=\"240\" height=\"175\" rx=\"12\" ry=\"12\" fill=\"#000000\" fill-opacity=\"0.08\" stroke=\"#000000\" stroke-width=\"0\" /></svg>",
+                "x": 504,
+                "y": -556,
+                "z": -2
+            },
+            {
+                "drawing_id": "fd5bf32f-30ca-4277-9fe5-f79b312cf501",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg width=\"240\" height=\"175\"><rect width=\"240\" height=\"175\" rx=\"12\" ry=\"12\" fill=\"#F8FAFC\" fill-opacity=\"0.9\" stroke=\"#CBD5E1\" stroke-width=\"2\" /></svg>",
                 "x": 500,
                 "y": -560,
                 "z": -1
             },
             {
-                "drawing_id": "e866b0b4-37ff-4b50-9b1b-d9ad9ed5b807",
+                "drawing_id": "34d0ebc9-41ba-439d-8a0d-f6007c28296a",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"100\" height=\"27\"><text font-family=\"TypeWriter, monospace\" font-size=\"11\" font-weight=\"bold\" fill=\"#111827\" fill-opacity=\"1.0\">LEGEND</text></svg>",
+                "svg": "<svg width=\"182\" height=\"27\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#1E293B\" fill-opacity=\"1.0\">NETWORK LEGEND</text></svg>",
                 "x": 520,
-                "y": -550,
+                "y": -548,
                 "z": 2
             },
             {
-                "drawing_id": "38b2d23e-736c-4004-a431-e98a1a37c03f",
+                "drawing_id": "ef2f8b67-e878-4f19-84bd-321bfe7a6c37",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"231\" height=\"22\"><text font-family=\"TypeWriter, monospace\" font-size=\"9\" font-weight=\"normal\" fill=\"#9333EA\" fill-opacity=\"1.0\">\u2501\u2501  Internet ISP Link</text></svg>",
+                "svg": "<svg width=\"241.5\" height=\"23\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"9.5\" font-weight=\"normal\" fill=\"#8B5CF6\" fill-opacity=\"1.0\">\u2501\u2501  BSNL WAN ISP Link</text></svg>",
                 "x": 520,
-                "y": -525,
+                "y": -522,
                 "z": 2
             },
             {
-                "drawing_id": "65d16213-8819-4069-9ef3-51d2d8b12cde",
+                "drawing_id": "5e739f29-95a0-4186-b288-7844fdaa6626",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"187\" height=\"22\"><text font-family=\"TypeWriter, monospace\" font-size=\"9\" font-weight=\"normal\" fill=\"#22C55E\" fill-opacity=\"1.0\">\u2501\u2501  Core / Uplink</text></svg>",
+                "svg": "<svg width=\"345.0\" height=\"23\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"9.5\" font-weight=\"normal\" fill=\"#10B981\" fill-opacity=\"1.0\">\u2501\u2501  Core / Distribution Uplink</text></svg>",
                 "x": 520,
-                "y": -505,
+                "y": -500,
                 "z": 2
             },
             {
-                "drawing_id": "91707769-67d1-4b11-8be2-b33ef67062d6",
+                "drawing_id": "b1aad444-fb26-46bb-9940-698f55431a76",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"242\" height=\"22\"><text font-family=\"TypeWriter, monospace\" font-size=\"9\" font-weight=\"normal\" fill=\"#EF4444\" fill-opacity=\"1.0\">\u254c\u254c  Redundant / Backup</text></svg>",
+                "svg": "<svg width=\"310.5\" height=\"23\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"9.5\" font-weight=\"normal\" fill=\"#EF4444\" fill-opacity=\"1.0\">\u254c\u254c  Redundant Backbone path</text></svg>",
                 "x": 520,
-                "y": -485,
+                "y": -478,
                 "z": 2
             },
             {
-                "drawing_id": "df2426b4-1fbe-4461-b2a5-dfe7b312372a",
+                "drawing_id": "60fdc4fb-92db-4a26-ba9c-b0c1d93c6859",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"165\" height=\"22\"><text font-family=\"TypeWriter, monospace\" font-size=\"9\" font-weight=\"normal\" fill=\"#2563EB\" fill-opacity=\"1.0\">\u2501\u2501  Access Link</text></svg>",
+                "svg": "<svg width=\"241.5\" height=\"23\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"9.5\" font-weight=\"normal\" fill=\"#3B82F6\" fill-opacity=\"1.0\">\u2501\u2501  Access Layer Link</text></svg>",
                 "x": 520,
-                "y": -465,
+                "y": -456,
                 "z": 2
             },
             {
-                "drawing_id": "93611470-7ae3-4fda-a71e-f9d20ad9d39e",
+                "drawing_id": "7f29189c-1f5e-4db2-a133-890d8dbb99b2",
                 "locked": true,
                 "rotation": 0,
-                "svg": "<svg width=\"264\" height=\"22\"><text font-family=\"TypeWriter, monospace\" font-size=\"9\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">Subnet: 192.168.100.0/24</text></svg>",
+                "svg": "<svg width=\"310.5\" height=\"23\"><text font-family=\"Arial, Helvetica, sans-serif\" font-size=\"9.5\" font-weight=\"bold\" fill=\"#059669\" fill-opacity=\"1.0\">Status: \ud83c\udfc6 PLATINUM VERIFIED</text></svg>",
                 "x": 520,
-                "y": -435,
-                "z": 2
-            },
-            {
-                "drawing_id": "ef172ce2-a9f2-4110-a720-dc05819f507d",
-                "locked": true,
-                "rotation": 0,
-                "svg": "<svg width=\"264\" height=\"22\"><text font-family=\"TypeWriter, monospace\" font-size=\"9\" font-weight=\"normal\" fill=\"#4B5563\" fill-opacity=\"1.0\">Fully Interconnected LAN</text></svg>",
-                "x": 520,
-                "y": -415,
+                "y": -425,
                 "z": 2
             }
         ],
         "links": [
             {
                 "filters": {},
-                "link_id": "d1bd8c10-26ef-4ba3-9144-28854583b78d",
+                "link_id": "3bba5ddb-3144-4e8f-a9c6-16c82b5ccd58",
                 "link_style": {
-                    "color": "#9333EA",
+                    "color": "#8B5CF6",
                     "style": "solid",
                     "type": 1,
                     "width": 4
@@ -294,7 +492,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -306,7 +504,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -319,9 +517,9 @@
             },
             {
                 "filters": {},
-                "link_id": "a1a3635e-7fbe-4b1e-9ec0-bfb0e6b8f480",
+                "link_id": "3f77aee1-d694-4a15-b473-bb9c8a38fd79",
                 "link_style": {
-                    "color": "#22C55E",
+                    "color": "#10B981",
                     "style": "solid",
                     "type": 1,
                     "width": 4
@@ -331,7 +529,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 0,
                             "y": -10
@@ -343,7 +541,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e10",
                             "x": 0,
                             "y": -10
@@ -356,7 +554,7 @@
             },
             {
                 "filters": {},
-                "link_id": "bc98ce6f-bcde-49db-8861-36b5c261f764",
+                "link_id": "89763d3e-e7bf-4529-911b-6cf1e5025961",
                 "link_style": {
                     "color": "#EF4444",
                     "style": "dashed",
@@ -368,7 +566,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 0,
                             "y": -10
@@ -380,7 +578,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e11",
                             "x": 0,
                             "y": -10
@@ -393,7 +591,7 @@
             },
             {
                 "filters": {},
-                "link_id": "7f37f80e-f0a6-4f3c-b999-23666d511033",
+                "link_id": "063b2cfe-6825-4df2-9933-f321fed9d4a5",
                 "link_style": {
                     "color": "#EF4444",
                     "style": "dashed",
@@ -405,7 +603,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 0,
                             "y": -10
@@ -417,7 +615,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e12",
                             "x": 0,
                             "y": -10
@@ -430,9 +628,9 @@
             },
             {
                 "filters": {},
-                "link_id": "7214d4b6-da9a-403a-8416-f36ecd411c80",
+                "link_id": "210de062-4063-42b6-9151-aa1f3d4f8d03",
                 "link_style": {
-                    "color": "#22C55E",
+                    "color": "#10B981",
                     "style": "solid",
                     "type": 1,
                     "width": 4
@@ -442,7 +640,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -454,7 +652,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -467,9 +665,9 @@
             },
             {
                 "filters": {},
-                "link_id": "2cc1f9f0-e606-4d24-bdb2-ed5857bd8b69",
+                "link_id": "919b74eb-f19a-4ca9-b9d8-ec50c92185a8",
                 "link_style": {
-                    "color": "#22C55E",
+                    "color": "#10B981",
                     "style": "solid",
                     "type": 1,
                     "width": 4
@@ -479,7 +677,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 0,
                             "y": -10
@@ -491,7 +689,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -504,9 +702,9 @@
             },
             {
                 "filters": {},
-                "link_id": "840cafc8-e078-4f91-934c-24a5329be8de",
+                "link_id": "a261cc16-1c39-442d-8b9d-59c5f1466c47",
                 "link_style": {
-                    "color": "#22C55E",
+                    "color": "#10B981",
                     "style": "solid",
                     "type": 1,
                     "width": 4
@@ -516,7 +714,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e2",
                             "x": 0,
                             "y": -10
@@ -528,7 +726,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -541,9 +739,9 @@
             },
             {
                 "filters": {},
-                "link_id": "f47e0bce-c2fe-413e-81f4-066836b55b95",
+                "link_id": "08701da7-d1b7-4ac9-9810-a142723583f6",
                 "link_style": {
-                    "color": "#22C55E",
+                    "color": "#10B981",
                     "style": "solid",
                     "type": 1,
                     "width": 4
@@ -553,7 +751,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e3",
                             "x": 0,
                             "y": -10
@@ -565,7 +763,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -578,9 +776,9 @@
             },
             {
                 "filters": {},
-                "link_id": "5490c716-e0db-4007-ad83-9d3122375d33",
+                "link_id": "81babc79-779d-4c7b-94d5-c8da2ad99485",
                 "link_style": {
-                    "color": "#2563EB",
+                    "color": "#3B82F6",
                     "style": "solid",
                     "type": 1,
                     "width": 3
@@ -590,7 +788,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 0,
                             "y": -10
@@ -602,7 +800,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -615,9 +813,9 @@
             },
             {
                 "filters": {},
-                "link_id": "a267a989-df76-4df7-bfdb-47bbfbfc5596",
+                "link_id": "b26afa62-a7c7-4f42-bc41-fe103d91b999",
                 "link_style": {
-                    "color": "#2563EB",
+                    "color": "#3B82F6",
                     "style": "solid",
                     "type": 1,
                     "width": 3
@@ -627,7 +825,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e2",
                             "x": 0,
                             "y": -10
@@ -639,7 +837,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -652,9 +850,9 @@
             },
             {
                 "filters": {},
-                "link_id": "eca49c49-d0ca-43f3-b5ef-f9cf34c05f5f",
+                "link_id": "743e375c-4de4-4283-8b4f-1a3b9148aeed",
                 "link_style": {
-                    "color": "#2563EB",
+                    "color": "#3B82F6",
                     "style": "solid",
                     "type": 1,
                     "width": 3
@@ -664,7 +862,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 0,
                             "y": -10
@@ -676,7 +874,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -689,9 +887,9 @@
             },
             {
                 "filters": {},
-                "link_id": "c2bd3e6d-a1cb-44b3-a58f-dd2479a26b75",
+                "link_id": "967cb9f1-632c-423e-b282-dbb461a62f84",
                 "link_style": {
-                    "color": "#2563EB",
+                    "color": "#3B82F6",
                     "style": "solid",
                     "type": 1,
                     "width": 3
@@ -701,7 +899,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e2",
                             "x": 0,
                             "y": -10
@@ -713,7 +911,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -726,9 +924,9 @@
             },
             {
                 "filters": {},
-                "link_id": "3171d759-0cc4-4e0d-86b1-2ba0e9bb355f",
+                "link_id": "18c714c9-7f0e-4e5e-a1f9-ea2be9824559",
                 "link_style": {
-                    "color": "#2563EB",
+                    "color": "#3B82F6",
                     "style": "solid",
                     "type": 1,
                     "width": 3
@@ -738,7 +936,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 0,
                             "y": -10
@@ -750,7 +948,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -763,9 +961,9 @@
             },
             {
                 "filters": {},
-                "link_id": "05716c5b-22cd-410c-a20c-9ba34dac9d43",
+                "link_id": "33d367a8-7771-495e-89af-3e65a62e3c4a",
                 "link_style": {
-                    "color": "#2563EB",
+                    "color": "#3B82F6",
                     "style": "solid",
                     "type": 1,
                     "width": 3
@@ -775,7 +973,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e2",
                             "x": 0,
                             "y": -10
@@ -787,7 +985,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -800,9 +998,9 @@
             },
             {
                 "filters": {},
-                "link_id": "86cdeea7-c20b-4ae8-be5f-dfe74d5fd1b2",
+                "link_id": "12b331ce-6e14-4860-a765-1e4bb71a259a",
                 "link_style": {
-                    "color": "#2563EB",
+                    "color": "#3B82F6",
                     "style": "solid",
                     "type": 1,
                     "width": 3
@@ -812,7 +1010,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e1",
                             "x": 0,
                             "y": -10
@@ -824,7 +1022,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -837,9 +1035,9 @@
             },
             {
                 "filters": {},
-                "link_id": "2af82366-4b1d-4df8-9e4d-ca19629dd015",
+                "link_id": "e2528559-ebe3-4a0c-8f82-f50274fb1013",
                 "link_style": {
-                    "color": "#2563EB",
+                    "color": "#3B82F6",
                     "style": "solid",
                     "type": 1,
                     "width": 3
@@ -849,7 +1047,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e2",
                             "x": 0,
                             "y": -10
@@ -861,7 +1059,7 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 7.0;fill: #4B5563;fill-opacity: 1.0;",
+                            "style": "font-family: Arial;font-size: 7.0;fill: #64748B;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 0,
                             "y": -10
@@ -884,7 +1082,7 @@
                 "height": 45,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Internet_BSNL",
                     "x": -39,
                     "y": -28
@@ -1013,8 +1211,8 @@
                 },
                 "symbol": ":/symbols/classic/cloud.svg",
                 "template_id": null,
-                "width": 70,
-                "x": -120,
+                "width": 72,
+                "x": -130,
                 "y": -520,
                 "z": 1
             },
@@ -1028,7 +1226,7 @@
                 "height": 55,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Firewall",
                     "x": -24,
                     "y": -28
@@ -1158,7 +1356,7 @@
                 "symbol": ":/symbols/classic/firewall.svg",
                 "template_id": null,
                 "width": 65,
-                "x": 120,
+                "x": 130,
                 "y": -520,
                 "z": 1
             },
@@ -1172,7 +1370,7 @@
                 "height": 32,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Backup_Switch_Standby",
                     "x": -63,
                     "y": -28
@@ -1302,8 +1500,8 @@
                 "symbol": ":/symbols/classic/ethernet_switch.svg",
                 "template_id": null,
                 "width": 72,
-                "x": -350,
-                "y": -300,
+                "x": -360,
+                "y": -285,
                 "z": 1
             },
             {
@@ -1316,7 +1514,7 @@
                 "height": 40,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Main_Core_Switch",
                     "x": -48,
                     "y": -28
@@ -1447,7 +1645,7 @@
                 "template_id": null,
                 "width": 72,
                 "x": 0,
-                "y": -300,
+                "y": -285,
                 "z": 1
             },
             {
@@ -1460,7 +1658,7 @@
                 "height": 32,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Secondary_Switch",
                     "x": -48,
                     "y": -28
@@ -1590,8 +1788,8 @@
                 "symbol": ":/symbols/classic/ethernet_switch.svg",
                 "template_id": null,
                 "width": 72,
-                "x": 350,
-                "y": -300,
+                "x": 360,
+                "y": -285,
                 "z": 1
             },
             {
@@ -1604,7 +1802,7 @@
                 "height": 32,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Administration_SW",
                     "x": -51,
                     "y": -28
@@ -1734,8 +1932,8 @@
                 "symbol": ":/symbols/classic/ethernet_switch.svg",
                 "template_id": null,
                 "width": 72,
-                "x": -600,
-                "y": 80,
+                "x": -610,
+                "y": 85,
                 "z": 1
             },
             {
@@ -1748,7 +1946,7 @@
                 "height": 32,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Library_SW",
                     "x": -30,
                     "y": -28
@@ -1878,8 +2076,8 @@
                 "symbol": ":/symbols/classic/ethernet_switch.svg",
                 "template_id": null,
                 "width": 72,
-                "x": -200,
-                "y": 80,
+                "x": -205,
+                "y": 85,
                 "z": 1
             },
             {
@@ -1892,7 +2090,7 @@
                 "height": 32,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Hospital_OPD_SW",
                     "x": -45,
                     "y": -28
@@ -2023,7 +2221,7 @@
                 "template_id": null,
                 "width": 72,
                 "x": 200,
-                "y": 80,
+                "y": 85,
                 "z": 1
             },
             {
@@ -2036,7 +2234,7 @@
                 "height": 32,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 10.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 10.0;font-weight: bold;fill: #1E293B;fill-opacity: 1.0;",
                     "text": "Hostel_SW",
                     "x": -27,
                     "y": -28
@@ -2166,13 +2364,13 @@
                 "symbol": ":/symbols/classic/ethernet_switch.svg",
                 "template_id": null,
                 "width": 72,
-                "x": 600,
-                "y": 80,
+                "x": 605,
+                "y": 85,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5009,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2180,7 +2378,7 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 9.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 9.0;font-weight: bold;fill: #334155;fill-opacity: 1.0;",
                     "text": "Admin_PC1",
                     "x": -18,
                     "y": -25
@@ -2195,13 +2393,13 @@
                 "symbol": ":/symbols/classic/vpcs_guest.svg",
                 "template_id": null,
                 "width": 65,
-                "x": -670,
-                "y": 310,
+                "x": -685,
+                "y": 320,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5011,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2209,7 +2407,7 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 9.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 9.0;font-weight: bold;fill: #334155;fill-opacity: 1.0;",
                     "text": "Admin_PC2",
                     "x": -18,
                     "y": -25
@@ -2224,13 +2422,13 @@
                 "symbol": ":/symbols/classic/vpcs_guest.svg",
                 "template_id": null,
                 "width": 65,
-                "x": -530,
-                "y": 310,
+                "x": -535,
+                "y": 320,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5013,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2238,7 +2436,7 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 9.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 9.0;font-weight: bold;fill: #334155;fill-opacity: 1.0;",
                     "text": "Library_PC1",
                     "x": -22,
                     "y": -25
@@ -2253,13 +2451,13 @@
                 "symbol": ":/symbols/classic/vpcs_guest.svg",
                 "template_id": null,
                 "width": 65,
-                "x": -270,
-                "y": 310,
+                "x": -280,
+                "y": 320,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5015,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2267,7 +2465,7 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 9.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 9.0;font-weight: bold;fill: #334155;fill-opacity: 1.0;",
                     "text": "Library_PC2",
                     "x": -22,
                     "y": -25
@@ -2283,12 +2481,12 @@
                 "template_id": null,
                 "width": 65,
                 "x": -130,
-                "y": 310,
+                "y": 320,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5004,
+                "console": 5017,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2296,7 +2494,7 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 9.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 9.0;font-weight: bold;fill: #334155;fill-opacity: 1.0;",
                     "text": "Hospital_PC1",
                     "x": -24,
                     "y": -25
@@ -2311,13 +2509,13 @@
                 "symbol": ":/symbols/classic/vpcs_guest.svg",
                 "template_id": null,
                 "width": 65,
-                "x": 130,
-                "y": 310,
+                "x": 125,
+                "y": 320,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5019,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2325,7 +2523,7 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 9.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 9.0;font-weight: bold;fill: #334155;fill-opacity: 1.0;",
                     "text": "Hospital_PC2",
                     "x": -24,
                     "y": -25
@@ -2340,13 +2538,13 @@
                 "symbol": ":/symbols/classic/vpcs_guest.svg",
                 "template_id": null,
                 "width": 65,
-                "x": 270,
-                "y": 310,
+                "x": 275,
+                "y": 320,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5006,
+                "console": 5021,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2354,7 +2552,7 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 9.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 9.0;font-weight: bold;fill: #334155;fill-opacity: 1.0;",
                     "text": "Hostel_PC1",
                     "x": -20,
                     "y": -25
@@ -2370,12 +2568,12 @@
                 "template_id": null,
                 "width": 65,
                 "x": 530,
-                "y": 310,
+                "y": 320,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5007,
+                "console": 5023,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -2383,7 +2581,7 @@
                 "height": 59,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter, monospace;font-size: 9.0;font-weight: bold;fill: #111827;fill-opacity: 1.0;",
+                    "style": "font-family: Arial, Helvetica, sans-serif;font-size: 9.0;font-weight: bold;fill: #334155;fill-opacity: 1.0;",
                     "text": "Hostel_PC2",
                     "x": -20,
                     "y": -25
@@ -2398,8 +2596,8 @@
                 "symbol": ":/symbols/classic/vpcs_guest.svg",
                 "template_id": null,
                 "width": 65,
-                "x": 670,
-                "y": 310,
+                "x": 680,
+                "y": 320,
                 "z": 1
             }
         ]
