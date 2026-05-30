@@ -6,7 +6,7 @@
     "grid_size": 75,
     "name": "JNMC_Belgaum_Campus_Network",
     "project_id": "fdbc1a48-5775-4c75-acaf-32a68c86f4bd",
-    "revision": 11,
+    "revision": 9,
     "scene_height": 1300,
     "scene_width": 2400,
     "show_grid": false,
